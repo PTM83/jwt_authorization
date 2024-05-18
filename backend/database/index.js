@@ -9,4 +9,6 @@ const config = {
     allowExitOnIdle: true
 }
 
-module.exports = { }
+const pool = new Pool(config)
+
+module.exports = { pool }
